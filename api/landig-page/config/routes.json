@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/landig-page",
+      "handler": "landig-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/landig-page",
+      "handler": "landig-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/landig-page",
+      "handler": "landig-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
